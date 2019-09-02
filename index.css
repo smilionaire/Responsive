@@ -20,6 +20,7 @@ header{
 .menu{
 	width: 85%;
 	background-color: #5E2D00;
+	padding-left: 15px;
 }
 .menu ul{
 	margin: 0;
@@ -43,7 +44,39 @@ header{
 .menu ul li:hover ul li{
 	display: block;
 }
+.footer{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.footer li{
+	list-style: none;
+}
+.footer a{
+	text-decoration: none;
+}
+.footer i{
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+.footer a #icon1{
+	color: #3b5998;
+}
+.footer a #icon2{
+	color: #fb3958;
+}
+.footer a #icon3{
+	color: #1da1f2;
+}
+.footer a #icon4{
+	color: #0088cc;
+}
 @media only screen and (min-width: 1000px){
+	header{
+	height: 150px;
+    }
 	.logo{
 	width: 10%;
 	padding-left: 80px;
@@ -68,4 +101,7 @@ header{
 		line-height: 50px;
 		margin-left: 20px;
 	}
+.footer{
+	top: 60%;
+}
 }
