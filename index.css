@@ -24,7 +24,7 @@ header{
 	margin-top: 40px;
 }
 .quote{
-	width:64%;
+	width: 60%;
 	background-color: #5E2D00;
 }
 .quote h1{
@@ -36,9 +36,8 @@ header{
 	letter-spacing: 0.3em;
 }
 .menu{
-	width: 21%;
+	width: 25%;
 	background-color: #5E2D00;
-	padding-left: 15px;
 }
 .menu ul{
 	margin: 0;
@@ -48,13 +47,17 @@ header{
 	margin-top: 5px;
 }
 .menu ul li{
-	float: left;
+	float: right;
 	width: 90px;
 	margin-top: 5px;
 	height: 20px;
 	line-height: 20px;
 	text-align: center;
 	color: #fff;
+}
+.menu ul li i{
+	float: left;
+	padding-left: 2px;
 }
 .menu ul li:hover{
 	background-color: #000;
