@@ -2,9 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	width: 100%;
+	height: 100vh;
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
 header{
 	width: 100%;
-	height: 60px;
+	height: 140px;
 	display: flex;
 	flex-direction: row;
 }
@@ -15,10 +21,22 @@ header{
 .logo img{
 	width: 50px;
 	height: 50px;
-	margin-top: 5px;
+	margin-top: 40px;
+}
+.quote{
+	width:64%;
+	background-color: #5E2D00;
+}
+.quote h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 0.3em;
 }
 .menu{
-	width: 85%;
+	width: 21%;
 	background-color: #5E2D00;
 	padding-left: 15px;
 }
@@ -26,10 +44,13 @@ header{
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	float: right;
+	margin-top: 5px;
 }
 .menu ul li{
 	float: left;
-	width: 70px;
+	width: 90px;
+	margin-top: 5px;
 	height: 20px;
 	line-height: 20px;
 	text-align: center;
@@ -40,16 +61,39 @@ header{
 }
 .menu ul li ul li{
 	display: none;
+	background-color: green;
 }
 .menu ul li:hover ul li{
 	display: block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.images{
+	margin-top: 30px;
+	padding-left: 15px;
+	width:100%;
+	height: 80px;
+	background-color: skyblue;
+	opacity: 0.4;
+}
+.images a{
+	text-decoration: none;
+}
+.connect{
+	margin-top: 20px;
+	width: 100%;
+	letter-spacing: 4px;
+	text-align: center;
+	color: white;
 }
 .footer{
 	width: 100%;
 	height: 100px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 45%;
 }
 .footer li{
 	list-style: none;
@@ -58,8 +102,11 @@ header{
 	text-decoration: none;
 }
 .footer i{
-	font-size: 30px;
-	padding-bottom: 5px;
+	font-size: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 40px;
+	line-height: 40px;
 }
 .footer a #icon1{
 	color: #3b5998;
@@ -72,6 +119,9 @@ header{
 }
 .footer a #icon4{
 	color: #0088cc;
+}
+.footer a #icon5{
+	color: #ffe4c2;
 }
 @media only screen and (min-width: 1000px){
 	header{
