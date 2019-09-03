@@ -25,7 +25,6 @@ header{
 }
 .quote{
 	width: 60%;
-	background-color: #5E2D00;
 }
 .quote h1{
 	text-transform: uppercase;
@@ -37,7 +36,6 @@ header{
 }
 .menu{
 	width: 25%;
-	background-color: #5E2D00;
 }
 .menu ul{
 	margin: 0;
@@ -54,6 +52,9 @@ header{
 	line-height: 20px;
 	text-align: center;
 	color: #fff;
+}
+#bars{
+	float: right;
 }
 .menu ul li i{
 	float: left;
