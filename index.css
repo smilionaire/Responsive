@@ -53,15 +53,19 @@ header{
 	text-align: center;
 	color: #fff;
 }
+#menu{
+	float: left;
+}
 #bars{
 	float: right;
 }
 .menu ul li i{
 	float: left;
+	margin-top: 2px;
 	padding-left: 2px;
 }
 .menu ul li:hover{
-	background-color: #000;
+	background-color: red;
 }
 .menu ul li ul li{
 	display: none;
@@ -88,7 +92,7 @@ header{
 .connect{
 	margin-top: 20px;
 	width: 100%;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	text-align: center;
 	color: white;
 }
