@@ -58,6 +58,7 @@ header{
 }
 #bars{
 	float: right;
+	padding-right: 2px;
 }
 .menu ul li i{
 	float: left;
