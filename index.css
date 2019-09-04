@@ -5,117 +5,104 @@
 body{
 	width: 100%;
 	height: 100vh;
-	background-image: url(bg.jpg);
+	background-image: url('bg.jpg');
 	background-size: cover;
 }
 header{
 	width: 100%;
-	height: 140px;
+	height: 150px;
 	display: flex;
 	flex-direction: row;
 }
 .logo{
-	width: 15%;
-	background-color: yellow;
+	width: 27%;
 }
 .logo img{
-	width: 50px;
-	height: 50px;
-	margin-top: 40px;
+	height: 150px;
+	background-color: yellow;
 }
 .quote{
-	width: 60%;
+	width: 38%;
 }
 .quote h1{
+	margin-top: 15%;
+	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	color: white;
-	margin-top: 10px;
-	font-family: 'Dosis', sans-serif;
-	letter-spacing: 0.3em;
 }
 .menu{
-	width: 25%;
+	width: 35%;
+	color: #fff;
 }
 .menu ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: right;
-	margin-top: 5px;
 }
 .menu ul li{
 	float: right;
-	width: 90px;
-	margin-top: 5px;
-	height: 20px;
-	line-height: 20px;
-	text-align: center;
-	color: #fff;
-}
-#menu{
-	float: left;
-}
-#bars{
-	float: right;
-	padding-right: 2px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background-color: red;
 }
 .menu ul li i{
 	float: left;
-	margin-top: 2px;
-	padding-left: 2px;
+	margin-top: 10%;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
 }
 .menu ul li:hover{
-	background-color: red;
+	background-color: green;
 }
 .menu ul li ul li{
 	display: none;
-	background-color: green;
 }
 .menu ul li:hover ul li{
 	display: block;
 }
-.menu ul li a{
-	text-decoration: none;
-	color: white;
-}
 .images{
-	margin-top: 30px;
-	padding-left: 15px;
-	width:100%;
+	width: 100%;
+	margin-top: 10%;
 	height: 80px;
 	background-color: skyblue;
-	opacity: 0.4;
 }
 .images a{
 	text-decoration: none;
 }
+.images img{
+	margin-left: 6px;
+}
 .connect{
-	margin-top: 20px;
-	width: 100%;
-	letter-spacing: 2px;
+	margin-top: 8%;
+}
+.connect h1{
+	color: #fff;
 	text-align: center;
-	color: white;
 }
 .footer{
 	width: 100%;
-	height: 100px;
-	position: absolute;
-	top: 55%;
-	left: 45%;
+	height: 50px;
+	margin-top: 5%;
+	background-color: rgba(0,0,0,0.5);
 }
-.footer li{
-	list-style: none;
+.footer ul{
+	width: 100%;
+}
+.footer ul li{
+	float: left;
+	margin-top: 2.5%;
+	padding: 2px 22px 2px 22px;
+	display: inline-block;
+	text-align: center;
+}
+.footer i{
+	font-size: 30px;
 }
 .footer a{
 	text-decoration: none;
-}
-.footer i{
-	font-size: 35px;
-	padding-left: 5px;
-	padding-right: 5px;
-	height: 40px;
-	line-height: 40px;
 }
 .footer a #icon1{
 	color: #3b5998;
@@ -131,36 +118,4 @@ header{
 }
 .footer a #icon5{
 	color: #ffe4c2;
-}
-@media only screen and (min-width: 1000px){
-	header{
-	height: 150px;
-    }
-	.logo{
-	width: 10%;
-	padding-left: 80px;
-	height: 150px;
-	}
-	.logo img{
-	margin-top: 40px;
-	}
-	.menu{
-	width: 90%;
-	height: 150px;
-	padding-right: 100px;
-	}
-	.menu ul{
-	float: right;
-	font-size: 20px;
-	text-transform: uppercase;
-	}
-	.menu ul li{
-		width: 120px;
-		height: 50px;
-		line-height: 50px;
-		margin-left: 20px;
-	}
-.footer{
-	top: 60%;
-}
 }
