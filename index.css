@@ -71,6 +71,7 @@ header{
 	margin-top: 10%;
 	height: 80px;
 	background-color: skyblue;
+	opacity: 0.4;
 }
 .images a{
 	text-decoration: none;
