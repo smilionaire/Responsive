@@ -27,6 +27,7 @@ header{
 .quote h1{
 	margin-top: 15%;
 	color: #fff;
+	font-family: 'Dosis', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -45,6 +46,8 @@ header{
 	height: 30px;
 	line-height: 30px;
 	background-color: red;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 2px;
 }
 .menu ul li i{
 	float: left;
@@ -79,8 +82,12 @@ header{
 	margin-top: 8%;
 }
 .connect h1{
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
 	color: #fff;
+	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 5px;
 }
 .footer{
 	width: 100%;
